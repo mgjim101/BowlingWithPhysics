@@ -12,6 +12,6 @@ public class InputManager : MonoBehaviour
             OnSpacePressed?.Invoke();
         }
     }
-
+ 
 
 }
