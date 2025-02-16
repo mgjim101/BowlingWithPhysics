@@ -1488,7 +1488,7 @@ GameObject:
   - component: {fileID: 1942122797}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1656,6 +1656,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5998676731069435571, guid: 7c43fcc1f9c2a4c09bdcc728c4221be3, type: 3}
+      propertyPath: m_Size.y
+      value: 0.12
+      objectReference: {fileID: 0}
     - target: {fileID: 7571330932293571030, guid: 7c43fcc1f9c2a4c09bdcc728c4221be3, type: 3}
       propertyPath: m_Name
       value: PinCollection
